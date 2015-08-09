@@ -1,7 +1,7 @@
 # project4-website-performans-optimization
 This is my submission for Project 4- Website Performance Optimization
 of Udacity Front-End Web Development Nanodegree.
-This is a web site, it contain several folders with css html and js files.
+This is a web site, it contain several folders with css, html and js files.
 The source code were suppled by Udacity,
 and can be found at: https://github.com/udacity/frontend-nanodegree-mobile-portfolio.
 I made only small changes in order to improve performance.
@@ -17,6 +17,7 @@ Optimizations in index.html:
  6.minifyed index.html
 
  To inspect the site on your phone or your local machine, you can run a local server
+
   1.clone it on your local machine
   ```bash
   2.$> cd /path/to/the-project-folder
