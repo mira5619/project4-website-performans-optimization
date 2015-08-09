@@ -9,12 +9,12 @@ I made only small changes in order to improve performance.
 Part 1: Optimize PageSpeed Insights score for index.html
 
 Optimizations in index.html:
- -added media='print' property to stylesheet print.css hyperlink
- -added async attrubute to the script hyperlink for Google Analitics
- -inlined style.css in index.html
- -inlined Google Web Font in index.html
- -created new image pizzeria-small.jpg with small dimensions to be served with index.html
- -minifyed index.html
+ 1.added media='print' property to stylesheet print.css hyperlink
+ 2.added async attrubute to the script hyperlink for Google Analitics
+ 3.inlined style.css in index.html
+ 4.inlined Google Web Font in index.html
+ 5.created new image pizzeria-small.jpg with small dimensions to be served with index.html
+ 6.minifyed index.html
 
  To inspect the site on your phone or your local machine, you can run a local server
   1.clone it on your local machine
@@ -36,8 +36,8 @@ Part 2: Optimize Frames per Second in views/pizza.html
 
 To optimize it I modified views/js/main.js until my frames per second rate hit 60 fps.
  in views/js/main.js there are optimizations in:
- -function updatePositions
- -function changePizzaSizes
- -function determineDx
+ 1.function updatePositions
+ 2.function changePizzaSizes
+ 3.function determineDx
  ... and many others, in-line comments are applied.
 
